@@ -48,7 +48,7 @@ function WorkWithUs() {
 							<option value=''>b</option>
 							<option value=''>c</option>
 						</select>
-						<i className='fas fa-chevron-down select-arrow'></i>
+						<i className='fas fa-chevron-down input-icon'></i>
 					</div>
 					<p className='note'>
 						Our work differs between different types of projects (ie. ecommerce,
@@ -65,7 +65,7 @@ function WorkWithUs() {
 							<option value=''>$15,001 - $20,000</option>
 							<option value=''>$20,001 - $25,000</option>
 						</select>
-						<i className='fas fa-chevron-down select-arrow'></i>
+						<i className='fas fa-chevron-down input-icon'></i>
 					</div>
 					<p className='note'>
 						There are many variations of passages of Lorem Ipsum but the
@@ -78,7 +78,7 @@ function WorkWithUs() {
 							placeholder='When do you need it done?'
 							className='input'
 						/>
-						<i className='fas fa-calendar-alt calendar'></i>
+						<i className='fas fa-calendar-alt input-icon'></i>
 					</div>
 					<div className='input-field'>
 						<label htmlFor=''>Message</label>

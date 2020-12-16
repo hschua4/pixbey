@@ -1,6 +1,7 @@
 .work {
 	width: 1620px;
 	margin: 0 auto;
+	background: rgb(249, 249, 255);
 }
 
 .work-container {
@@ -23,6 +24,8 @@
 	font-size: 24px;
 	margin-bottom: 50px;
 	width: 849px;
+	line-height: 32px;
+	color: rgb(112, 112, 112);
 }
 
 .form {
@@ -52,7 +55,7 @@
 	position: relative;
 	height: 50px;
 	margin-top: 25px;
-	padding-top: 8px;
+	padding-top: 8px; /*check if needed*/
 }
 
 .input-field label {
@@ -82,9 +85,10 @@
 	margin-left: 220px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 13px;
+	line-height: 20px;
 }
 
-.calendar {
+.input-icon {
 	position: absolute;
 	top: 15px;
 	right: 30px;
@@ -123,9 +127,78 @@ option:not(:first-of-type) {
 	color: black;
 }
 
-.select-arrow {
-	position: absolute;
-	top: 18px;
-	right: 30px;
-	color: rgb(112, 112, 112);
+@media screen and (max-width: 414px) {
+	.work {
+		width: 100vw;
+		padding-top: 100px;
+	}
+
+	.work-container {
+		width: 95vw;
+	}
+
+	.work-container h1 {
+		font-size: 34px;
+	}
+
+	.work-container > p {
+		font-size: 16px;
+		width: 100%;
+		line-height: 21px;
+	}
+
+	.form {
+		width: 100%;
+		height: fit-content;
+		padding: 15px;
+	}
+
+	.form h2 {
+		font-family: 'Poppins', sans-serif;
+		font-size: 34px;
+		margin-bottom: 25px;
+	}
+
+	/* .form p {
+		font-family: 'Roboto', sans-serif;
+		font-size: 18px;
+	} */
+
+	.input-field {
+		margin-top: 20px;
+		/* border: 1px solid black; */
+		height: fit-content;
+		padding-top: 0;
+	}
+
+	.input-field label {
+		font-size: 16px;
+	}
+
+	.input {
+		width: 100%;
+		position: static;
+	}
+
+	.form .note {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 5px;
+	}
+
+	.input-icon {
+		top: 40px;
+		right: 20px;
+	}
+
+	.textarea {
+		resize: none;
+		height: 181px;
+		padding-top: 15px;
+	}
+
+	.send {
+		bottom: 30px;
+		right: 25px;
+	}
 }

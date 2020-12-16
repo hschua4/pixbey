@@ -5,17 +5,17 @@ const Footer = () => {
 	return (
 		<div className='footer'>
 			<div className='footer-container'>
-				<div className='left'>
+				<div className='top'>
 					<img src='./images/logo.png' alt='' />
-					<p>Copyright Pixabey 2020</p>
-				</div>
-				<div className='right'>
 					<div className='social'>
 						<i className='fab fa-facebook-f icon'></i>
 						<i className='fab fa-twitter icon'></i>
 						<i className='fab fa-linkedin-in icon'></i>
 						<i className='fab fa-pinterest-p icon'></i>
 					</div>
+				</div>
+				<div className='bottom'>
+					<p>Copyright Pixabey 2020</p>
 					<div className='terms'>
 						<p>Terms of use</p>
 						<p>|</p>

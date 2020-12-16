@@ -3,6 +3,7 @@
 	display: flex;
 	flex-direction: row;
 	position: relative;
+	background: rgb(249, 249, 255);
 	/* border: 1px solid black; */
 }
 
@@ -38,18 +39,14 @@
 	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
 	margin-top: 30px;
+	line-height: 32px;
+	color: rgb(112, 112, 112);
 }
 
 .why-content {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	background: rgb(245, 245, 245);
-}
-
-.why-content h1 {
-	width: 376px;
-	font-size: 42px;
 }
 
 .why-img {
@@ -61,6 +58,12 @@
 	width: 810px;
 }
 
+.why-content-text h1 {
+	width: 376px;
+	font-size: 42px;
+	/* line-height: 60; */
+}
+
 .why-get-more {
 	width: 245px;
 	height: 73px;
@@ -70,4 +73,58 @@
 	font-weight: 500;
 	border-radius: 15px;
 	margin-top: 30px;
+}
+
+@media screen and (max-width: 414px) {
+	.why {
+		width: 100vw;
+	}
+
+	.why-container {
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		margin-top: 50px;
+	}
+
+	.polygon {
+		width: 340px;
+		top: 265px;
+		left: -50px;
+	}
+
+	.why-head {
+		width: 100%;
+	}
+
+	.why h1 {
+		font-size: 34px;
+	}
+
+	.why p {
+		font-size: 16px;
+		margin-top: 30px;
+		line-height: 25px;
+	}
+
+	.why-content {
+		width: 100vw;
+		flex-direction: column;
+	}
+
+	.why-content-text {
+		width: 90vw;
+		text-align: left;
+	}
+
+	.why-content-text h1 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.why-img {
+		width: 300px;
+		z-index: 2; /*iphone image is above polygon*/
+		margin-right: 0px;
+	}
 }
