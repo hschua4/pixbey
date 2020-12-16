@@ -8,7 +8,9 @@
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
-	width: 100vw;
+	/* width: 100vw; */
+	/* border: 1px solid black; */
+	z-index: 999;
 }
 
 .navbar-container {
@@ -17,7 +19,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: fixed;
+	/* position: fixed; */
 	z-index: 999;
 	/* border: 1px solid black; */
 }

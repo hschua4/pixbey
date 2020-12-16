@@ -1,0 +1,131 @@
+.work {
+	width: 1620px;
+	margin: 0 auto;
+}
+
+.work-container {
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.work-container h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 55px;
+	margin-bottom: 30px;
+}
+
+.work-container > p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	margin-bottom: 50px;
+	width: 849px;
+}
+
+.form {
+	width: 1000px;
+	height: 928px;
+	background: rgb(51, 54, 151);
+	color: #fff;
+	text-align: left;
+	border-radius: 25px;
+	margin-bottom: 50px;
+	padding: 60px;
+	position: relative;
+}
+
+.form h2 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 34px;
+	margin-bottom: 25px;
+}
+
+.form p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+.input-field {
+	position: relative;
+	height: 50px;
+	margin-top: 25px;
+	padding-top: 8px;
+}
+
+.input-field label {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	/* margin-top: 15px; */
+}
+
+.input {
+	width: 650px;
+	height: 50px;
+	border-radius: 25px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	padding-left: 30px;
+	position: absolute;
+	top: 0;
+	left: 220px;
+}
+
+.select-placeholder {
+	color: rgb(112, 112, 112);
+}
+
+.form .note {
+	width: 650px;
+	margin-left: 220px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+}
+
+.calendar {
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	font-size: 20px;
+	color: rgb(112, 112, 112);
+}
+
+.textarea {
+	resize: none;
+	height: 181px;
+	padding-top: 15px;
+}
+
+.send {
+	width: 129px;
+	height: 50px;
+	border-radius: 25px;
+	position: absolute;
+	bottom: 65px;
+	right: 80px;
+	background: rgb(51, 54, 151);
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+select {
+	-moz-appearance: none; /* Firefox */
+	-webkit-appearance: none; /* Safari and Chrome */
+	appearance: none;
+	color: rgb(112, 112, 112);
+}
+
+option:not(:first-of-type) {
+	color: black;
+}
+
+.select-arrow {
+	position: absolute;
+	top: 18px;
+	right: 30px;
+	color: rgb(112, 112, 112);
+}

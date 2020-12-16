@@ -7,11 +7,11 @@ const Banner = () => {
 	};
 	return (
 		<>
-			<svg className='shadow' width='1921.3053' height='982.8158'>
+			<svg className='shadow' width='1900' height='982.8158'>
 				<path d='m 0,0 377.79468,763.34601 c 0,0 675.28512,280.60829 1095.05692,205.77946 0,0 354.0686,-87.60456 447.1484,-317.56653 v -651.55894 z' />
 			</svg>
 			<div className='banner' style={background}></div>
-			<svg className='overlay' width='1920' height='938'>
+			<svg className='overlay' width='1900' height='938'>
 				<path d='m 0,0 v 652.01521 c 0,0 1090.8723,359.93509 1513.4466,275.3545 0,0 312.1831,-36.81504 405.2629,-266.77701 l 1.2905,-660.5927 z' />
 			</svg>
 			<div className='content'>

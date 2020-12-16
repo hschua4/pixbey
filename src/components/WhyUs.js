@@ -5,6 +5,7 @@ const WhyUs = () => {
 	return (
 		<div className='why'>
 			<div className='why-container'>
+				<img src='./images/style.png' alt='polygon' className='polygon' />
 				<div className='why-head'>
 					<h1>Why Us</h1>
 					<p>
@@ -14,7 +15,7 @@ const WhyUs = () => {
 					</p>
 				</div>
 				<div className='why-content'>
-					<img src='./images/iphone-x.png' alt='' />
+					<img className='why-img' src='./images/iphone-x.png' alt='' />
 					<div className='why-content-text'>
 						<h1>Built An App That Everyone Loves</h1>
 						<p>
@@ -28,7 +29,7 @@ const WhyUs = () => {
 							The Readable Content Of A Page When Looking At Its Layout. The
 							Point Of Using
 						</p>
-						<button>Get More →</button>
+						<button className='why-get-more'>Get More →</button>
 					</div>
 				</div>
 			</div>
