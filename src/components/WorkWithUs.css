@@ -61,7 +61,6 @@
 .input-field label {
 	font-family: 'Poppins', sans-serif;
 	font-size: 20px;
-	/* margin-top: 15px; */
 }
 
 .input {
@@ -159,14 +158,8 @@ option:not(:first-of-type) {
 		margin-bottom: 25px;
 	}
 
-	/* .form p {
-		font-family: 'Roboto', sans-serif;
-		font-size: 18px;
-	} */
-
 	.input-field {
 		margin-top: 20px;
-		/* border: 1px solid black; */
 		height: fit-content;
 		padding-top: 0;
 	}

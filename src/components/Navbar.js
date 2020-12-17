@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 	const [displayMenu, setDisplayMenu] = useState(false);
@@ -23,33 +23,61 @@ const Navbar = () => {
 				</div>
 				<ul className={displayMenu ? 'nav-menu active' : 'nav-menu'}>
 					<li>
-						<NavLink to='/' className='link' onClick={handleMenuClick}>
+						<Link
+							to='banner'
+							smooth='true'
+							duration={500}
+							className='link'
+							onClick={handleMenuClick}
+						>
 							Home
-						</NavLink>
+						</Link>
 					</li>
 					<li>
-						<NavLink to='why-us' className='link'>
+						<Link
+							to='why-us'
+							smooth='true'
+							duration={500}
+							offset={window.screen.width > 414 ? 120 : 0}
+							className='link'
+							onClick={handleMenuClick}
+						>
 							Why Us
-						</NavLink>
+						</Link>
 					</li>
 					<li>
-						<NavLink to='portfolio' className='link' onClick={handleMenuClick}>
+						<Link
+							to='portfolio'
+							smooth='true'
+							duration={500}
+							className='link'
+							onClick={handleMenuClick}
+						>
 							Our Portfolio
-						</NavLink>
+						</Link>
 					</li>
 					<li>
-						<NavLink to='clients' className='link' onClick={handleMenuClick}>
+						<Link
+							to='clients'
+							smooth='true'
+							duration={500}
+							className='link'
+							onClick={handleMenuClick}
+						>
 							Our Clients
-						</NavLink>
+						</Link>
 					</li>
 					<li className='contact-us-container'>
-						<NavLink
+						<Link
 							to='contact'
+							smooth='true'
+							duration={500}
+							offset={window.screen.width > 414 ? -120 : 0}
 							className='link contact-us'
 							onClick={handleMenuClick}
 						>
 							Contact Us
-						</NavLink>
+						</Link>
 					</li>
 				</ul>
 			</div>

@@ -6,7 +6,6 @@
 
 .banner {
 	background: rgb(249, 249, 255);
-	/* border: 1px solid black; */
 }
 
 .shadow {
@@ -24,7 +23,6 @@
 	position: absolute;
 	top: 0;
 	z-index: 2;
-	/* border: 2px solid black; */
 }
 
 .overlay {
@@ -44,7 +42,6 @@
 	display: flex;
 	justify-content: flex-start;
 	width: 1620px;
-	/* border: 2px solid white; */
 }
 
 .content-container {
@@ -52,13 +49,11 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: top;
-	/* border: 2px solid black; */
 }
 
 .description {
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
-	/* border: 1px solid black; */
 	margin-top: 85px;
 	margin-left: 10px;
 	width: 686px;
@@ -90,7 +85,6 @@
 
 .content-container img {
 	margin-left: 60px;
-	/* border: 1px solid black; */
 }
 
 @media screen and (max-width: 414px) {

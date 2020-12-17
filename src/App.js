@@ -1,22 +1,25 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import Banner from './components/Banner';
 import WhyUs from './components/WhyUs';
 import WorkWithUs from './components/WorkWithUs';
 import Footer from './components/Footer';
+import { Element } from 'react-scroll';
 
 const App = () => {
 	return (
 		<div className='App'>
-			<Router>
-				<Navbar />
-				<Switch></Switch>
+			<Navbar />
+			<Element name='banner'>
 				<Banner />
+			</Element>
+			<Element name='why-us'>
 				<WhyUs />
+			</Element>
+			<Element name='contact'>
 				<WorkWithUs />
-				<Footer />
-			</Router>
+			</Element>
+			<Footer />
 		</div>
 	);
 };

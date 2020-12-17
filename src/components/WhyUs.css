@@ -4,7 +4,6 @@
 	flex-direction: row;
 	position: relative;
 	background: rgb(249, 249, 255);
-	/* border: 1px solid black; */
 }
 
 .why-container {
@@ -61,7 +60,6 @@
 .why-content-text h1 {
 	width: 376px;
 	font-size: 42px;
-	/* line-height: 60; */
 }
 
 .why-get-more {
