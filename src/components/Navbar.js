@@ -13,7 +13,10 @@ const Navbar = () => {
 		<div className='navbar'>
 			<div className='navbar-container'>
 				<div className='logo'>
-					<img src='./images/logo.png' alt='logo'></img>
+					<div className='logo-container'>
+						<img src='./images/logo.png' alt='logo'></img>
+					</div>
+					<h1>Pixbey</h1>
 				</div>
 				<div className='menu-icon' onClick={handleMenuClick}>
 					{/* toggle menu icon on click */}
